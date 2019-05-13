@@ -1,0 +1,12 @@
+import math
+print("Gamma for 5 is : {}".format(math.gamma(5)))
+print("Factorial for 4 is : {}".format(math.factorial(4)))
+print("----------------")
+print("Gamma for 18 is : {}".format(math.gamma(18)))
+print("Factorial for 17 is : {}".format(math.factorial(17)))
+print("----------------")
+print("Gamma for 15 is : {}".format(math.gamma(15)))
+print("Factorial for 14 is : {}".format(math.factorial(14)))
+print("----------------")
+print("Gamma for 10 is : {}".format(math.gamma(10)))
+print("Factorial for 9 is : {}".format(math.factorial(9)))

@@ -1,3 +1,5 @@
+# www.codevscolor.com/python-program-to-check-palindrome-python-tutorial/
+
 # method 1
 str = "12345"
 

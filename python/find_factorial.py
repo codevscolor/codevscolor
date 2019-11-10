@@ -1,3 +1,5 @@
+# www.codevscolor.com/python-factorial-of-a-number/
+
 # Method 1 : using for loop 
 
 def factorialUsingForLoop(n):

@@ -1,3 +1,5 @@
+# www.codevscolor.com/python-program-find-factorial-python-tutorial/
+
 def fact(x):
     if x == 0 :
         return 1

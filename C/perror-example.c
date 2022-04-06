@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <errno.h>
+
 int main()
 {
     //1

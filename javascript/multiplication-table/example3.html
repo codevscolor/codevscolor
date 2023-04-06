@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      button {
+        background-color: #806ae4;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 100px;
+        margin-top: 10px;
+        height: 30px;
+        line-height: 0;
+      }
+      p{
+        color: #27186b;
+      }
+    </style>
+    <script>
+      function addNumbers() {
+        var number;
+        var result = "";
+
+        number = Number(document.getElementById("number").value);
+        
+        var i = 1;
+
+        do{
+          result = result + "<p>"+number + "*" + i + "=" + number * i+"</p>";
+          i++;
+        }while(i<= 10);
+
+        document.getElementById("result").innerHTML = result;
+      }
+    </script>
+  </head>
+  <body>
+      <h3>Enter the number : </h3>
+      <input id="number" />
+      <button onclick="addNumbers()">Print</button>
+      <div id="result">
+  </body>
+</html>

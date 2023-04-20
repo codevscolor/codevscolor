@@ -1,6 +1,8 @@
+// https://codevscolor.com/c-program-get-integer-fraction-decimal-part
+
 #include <stdio.h>
 
-int main()n
+int main()
 {
     float num;
 

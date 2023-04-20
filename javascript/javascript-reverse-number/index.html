@@ -1,0 +1,46 @@
+<!-- https://codevscolor.com/javascript-reverse-number -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      button {
+        background-color: #228ac2;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 200px;
+        margin-top: 10px;
+        height: 30px;
+        line-height: 0;
+      }
+    </style>
+    <script>
+      function findReverse() {
+        let number = Number(document.getElementById("input_number").value);
+
+        let reverse =
+          parseFloat(number.toString().split("").reverse().join("")) *
+          Math.sign(number);
+
+        document.getElementById("result").innerHTML = reverse;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h3>Reverse Number</h3>
+    <input id="input_number" />
+    <button onclick="findReverse()">Find Reverse</button>
+    <h4 id="result">-----</h4>
+  </body>
+</html>

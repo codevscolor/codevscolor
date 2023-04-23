@@ -1,6 +1,4 @@
-my_dict = {"one": 1, "two": 2, "three": 3, "four": 4}
+my_dict = {"one": 1,"two":2,"three":3,"four":4}
 
-dict_list = list(my_dict.items())[:2]
-
-for k, v in dict_list:
-    print(f"Key: {k}, Value: {v}")
+for key in my_dict.keys():
+    print("Key : {} , Value : {}".format(key,my_dict[key]))

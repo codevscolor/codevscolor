@@ -1,3 +1,4 @@
+# https://codevscolor.com/python-count-words-characters-string
 word_count = 0
 char_count = 0
 last_word_space = False

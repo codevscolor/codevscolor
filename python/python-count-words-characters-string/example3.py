@@ -1,3 +1,4 @@
+# https://codevscolor.com/python-count-words-characters-string
 import re
 
 word_count = 0

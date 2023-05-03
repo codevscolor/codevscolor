@@ -1,3 +1,5 @@
+# https://codevscolor.com/python-check-validity-password
+
 import re
 
 while True:

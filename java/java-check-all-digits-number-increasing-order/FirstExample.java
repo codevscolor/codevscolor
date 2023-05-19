@@ -1,3 +1,4 @@
+// https://codevscolor.com/java-check-all-digits-number-increasing-order
 import java.util.Scanner;
 
 class FirstExample {

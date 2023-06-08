@@ -1,0 +1,15 @@
+<!-- https://codevscolor.com/javascript-find-sphere-volume -->
+<input type="number" id="input_radius" placeholder="Enter the radius" />
+<input type="button" value="Find" id="input_button" />
+<script>
+  function calculateVolume() {
+    let radius = document.getElementById("input_radius").value;
+
+    let volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
+
+    alert("The volume of a sphere: " + volume.toFixed(2));
+  }
+
+  let button = document.getElementById("input_button");
+  button.onclick = calculateVolume;
+</script>

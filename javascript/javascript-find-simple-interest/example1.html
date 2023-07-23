@@ -1,0 +1,29 @@
+<!-- https://codevscolor.com/javascript-find-simple-interest -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function calculateSI() {
+        let p = document.getElementById("inputP").value;
+        let n = document.getElementById("inputN").value;
+        let r = document.getElementById("inputR").value;
+
+        let simpleInterest = (p * n * r) / 100;
+
+        document.getElementById("result").innerHTML = simpleInterest;
+      }
+    </script>
+  </head>
+  <body>
+    <h4>Enter the principal amount:</h4>
+    <input id="inputP" />
+    <h4>Enter the rate of interest:</h4>
+    <input id="inputR" />
+    <h4>Enter the time:</h4>
+    <input id="inputN" />
+    <br /><br />
+    <button onclick="calculateSI()">Calculate Simple Interest</button>
+    <p id="result"></p>
+  </body>
+</html>

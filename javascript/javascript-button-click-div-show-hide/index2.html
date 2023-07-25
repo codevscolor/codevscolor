@@ -1,0 +1,22 @@
+<!-- https://codevscolor.com/javascript-button-click-div-show-hide -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function toggleVisibility(id) {
+        const div = document.getElementById(id);
+        div.style.display = div.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="first">First div</div>
+    <div id="second">Second div</div>
+    <div id="third">Third div</div>
+    <br />
+    <button onclick="toggleVisibility('first')">1st div</button>
+    <button onclick="toggleVisibility('second')">2nd div</button>
+    <button onclick="toggleVisibility('third')">3rd div</button>
+  </body>
+</html>
